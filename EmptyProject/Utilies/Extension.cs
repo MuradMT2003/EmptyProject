@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmptyProject.Utilies
+namespace EmptyProject.Utilies;
+
+internal static class Extension
 {
-    internal static class Extension
+    public static bool FileSize(this int number)
     {
-        public static bool FileSize(this int number)
-        {
-            return number > 100;
-        }
+        return number > 100;
     }
 }
