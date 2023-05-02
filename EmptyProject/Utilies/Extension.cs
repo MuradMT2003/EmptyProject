@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace EmptyProject.Utilies
 {
-    internal class Extension
+    internal static class Extension
     {
+        public static bool FileSize(this int number)
+        {
+            return number > 100;
+        }
     }
 }
