@@ -1,7 +1,14 @@
-﻿using EmptyProject.Interfaces;
-using EmptyProject.Models;
-ICheck student = new Student(1, "Murad", 99);
-Console.WriteLine(student.CheckGrades(12,12,34,45)>80:$"{student}");
+﻿using EmptyProject;
+
+MyList<int> val = new()
+{
+    1,2,3,4,5
+};
+Console.WriteLine(val[0]);
+foreach (var item in val)
+{
+    Console.WriteLine(item);
+}
 
 
 
